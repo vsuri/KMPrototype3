@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical" >
+
+    <Button
+
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Fragment 1 - BLUE"
+
+        android:onClick="selectFrag" />
+
+
+
+    <Button
+
+        android:id="@+id/button2"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:onClick="selectFrag"
+
+        android:text="Fragment 2 - RED" />
+
+
+
+    <fragment
+
+        android:name="com.example.coen485prototype1.FragmentOne"
+
+        android:id="@+id/fragment_place"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        tools:layout="@layout/activity_events" />
+
+
+
+</LinearLayout>

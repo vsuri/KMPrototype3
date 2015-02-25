@@ -1,0 +1,2 @@
+/Users/vinaysuri/Desktop/COEN485Prototype1/app/build/intermediates/classes/debug
+/Users/vinaysuri/Desktop/COEN485Prototype1/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-644250518b49ca82703581f75e1c0d56c6753436.jar
